@@ -1,3 +1,8 @@
+# Purpose
+1. Deploy spring boot project on GAE Flex.
+2. Test using profile.
+
+
 # Spring Boot based Hello World app
 
 This sample shows how to run a [Spring Boot][spring-boot] application on [Google

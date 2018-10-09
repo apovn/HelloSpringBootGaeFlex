@@ -1,0 +1,6 @@
+spring:
+    application:
+        name: helloworld-springboot
+
+application:
+    company: app-any

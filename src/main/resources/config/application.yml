@@ -1,0 +1,8 @@
+spring:
+    application:
+        name: helloworld-springboot
+    profiles:
+        active: any
+
+application:
+    company: app-default
