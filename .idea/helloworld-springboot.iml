@@ -3,7 +3,7 @@
   <component name="FacetManager">
     <facet type="app-engine-flexible" name="Google App Engine Flexible">
       <configuration>
-        <option name="appYamlPath" value="D:\MyDoc\Projects\TestCode\GCP\getting-started-java\helloworld-springboot\src\main\appengine\app.yaml" />
+        <option name="appYamlPath" value="src\main\appengine\app.yaml" />
         <option name="dockerDirectory" value="D:\MyDoc\Projects\TestCode\GCP\getting-started-java\helloworld-springboot\src\main\docker" />
       </configuration>
     </facet>
