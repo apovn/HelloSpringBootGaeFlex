@@ -21,16 +21,21 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import java.util.logging.Logger;
+import java.util.logging.Level;
 
 @SpringBootApplication
 @RestController
 public class HelloworldApplication {
+
+    private final Logger logger = Logger.getLogger(HelloworldApplication.class.getName());
 
     @Value("${application.company}")
     private String company;
 
     @RequestMapping("/")
     private String home() {
+        logger.log(Level.INFO, "Started HelloworldApplication.");
         return "Hello World!";
     }
 
@@ -44,6 +49,7 @@ public class HelloworldApplication {
     @RequestMapping("/health")
     public String healthy() {
         // Message body required though ignored
+        logger.info("Checking HelloworldApplication health.");
         return "Still surviving. Profile: " + company;
     }
 

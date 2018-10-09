@@ -1,6 +1,7 @@
 # Purpose
 1. Deploy spring boot project on GAE Flex.
 2. Test using profile.
+3. Test view application log on Google Log Viewer
 
 
 # Spring Boot based Hello World app
